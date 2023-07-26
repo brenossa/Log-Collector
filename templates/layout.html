@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Collector</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Log Collector</h1>
+    </header>
+    <main>
+        {% for post in posts %}
+        <div class="post">
+            <h2><a href="{{ url_for('post', id=post['id']) }}">{{ post['titulo'] }}</a></h2>
+            <p>Por: {{ post['autor'] }}</p>
+        </div>
+        {% endfor %}
+    </main>
+</body>
+</html>
