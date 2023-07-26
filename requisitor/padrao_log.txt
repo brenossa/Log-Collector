@@ -1,0 +1,2 @@
+Após decidir o formato padrão do log, ele será salvo nesse arquivo para todos se orientarem
+ao utilizar.

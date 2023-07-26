@@ -51,3 +51,18 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.btn-criar-post {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-criar-post:hover {
+    background-color: #218838;
+}
